@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700;900&display=swap");
+  body {
+    background: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+  }
+  .bg {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 380px;
+    box-shadow: 0px 20px 30px hsl(223, 49%, 83%);
+    margin: 15px;
+  }
+  .card-head img {
+    width: 380px;
+    height: auto;
+  }
+  .card-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-body h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 18px;
+  }
+  .card-body > p {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    text-align: center;
+    width: 300px;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+  }
+  .inner-body {
+    width: 290px;
+    height: 90px;
+    background: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .inner-img {
+    display: flex;
+    justify-content: space-between;
+  }
+  .inner-img img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .plan h2 {
+      color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+  }
+  .plan p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+  }
+  .inner-body a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline !important;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  a.change:hover {
+      text-decoration: none !important;
+      color: #766cf1;
+      transition: .5s;
+  }
+  .button {
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 12px 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 15px 20px hsl(245, 60%, 88%);
+  }
+  .button:hover {
+      color: #fff;
+      background: #766cf1;
+      transition: .5s;
+  }
+  .card-body a {
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
